@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-07-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="en_AU">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="16" name="create gannt" color="#8cb6ce" meeting="false" start="2023-05-31" duration="32" complete="0" thirdDate="2023-04-20" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[harvey golonka creats gantt
+]]>
+            </notes>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="Submit Initial Gantt Chart" color="#8cb6ce" meeting="true" start="2023-07-14" duration="0" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true"/>
+        <task id="27" name="analysis" color="#8cb6ce" meeting="false" start="2023-06-02" duration="8" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="brianstorm" color="#8cb6ce" meeting="false" start="2023-06-02" duration="1" complete="0" thirdDate="2023-05-23" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Brainstorming client profile and solution idea]]>
+            </notes>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="data collection" color="#8cb6ce" meeting="false" start="2023-06-05" duration="1" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Data collection from users to determine solution requirements]]>
+            </notes>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="requirements" color="#8cb6ce" meeting="false" start="2023-06-06" duration="6" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Defining scope, software requirements and constraints]]>
+            </notes>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="considerations" color="#8cb6ce" meeting="false" start="2023-06-06" duration="6" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Outline legal, economic and ethical considerations asociated with solution]]>
+            </notes>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="finnish proposal document" color="#8cb6ce" meeting="true" start="2023-06-14" duration="0" complete="0" thirdDate="2023-05-26" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="Design" color="#8cb6ce" meeting="false" start="2023-06-14" duration="8" complete="0" thirdDate="2023-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Develop Evaluation Criteria" color="#8cb6ce" meeting="false" start="2023-06-14" duration="3" complete="0" thirdDate="2023-06-13" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="Designing of the solution" color="#8cb6ce" meeting="false" start="2023-06-19" duration="5" complete="0" thirdDate="2023-06-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Designing of the solution (Design tools for appearance and function)]]>
+            </notes>
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="38" name="begin development" color="#8cb6ce" meeting="true" start="2023-06-26" duration="0" complete="0" thirdDate="2023-06-16" thirdDate-constraint="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" name="Development of solution software" color="#8cb6ce" meeting="false" start="2023-06-26" duration="1" complete="0" thirdDate="2023-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" name="Documentation" color="#8cb6ce" meeting="false" start="2023-06-26" duration="1" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" name="Create testing methodology" color="#8cb6ce" meeting="false" start="2023-06-26" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" name="Test Solution" color="#8cb6ce" meeting="false" start="2023-06-26" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" name="Produce complete prototype" color="#8cb6ce" meeting="false" start="2023-06-26" duration="10" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="complete development / begin evaluation" color="#8cb6ce" meeting="true" start="2023-07-10" duration="0" complete="0" thirdDate="2023-06-23" thirdDate-constraint="0" expand="true">
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+            <depend id="43" type="2" difference="0" hardness="Strong"/>
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="41" name="Develop evaluation stratedgy" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" thirdDate="2023-07-05" thirdDate-constraint="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="42" name="Criteria tests" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="43" name="Justify if solution is innovative" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="44" name="Final product evaluation" color="#8cb6ce" meeting="false" start="2023-07-10" duration="18" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="Evaluation criteria" color="#8cb6ce" meeting="true" start="2023-08-03" duration="0" complete="0" thirdDate="2023-05-19" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Evaluation criteria questions completed and added to Project document]]>
+            </notes>
+        </task>
+        <task id="19" name="submition" color="#8cb6ce" meeting="true" start="2023-08-25" duration="0" complete="0" thirdDate="2023-05-24" thirdDate-constraint="0" priority="4" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Oscar Newman" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Harvey Golonka" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
